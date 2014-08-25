@@ -10,11 +10,8 @@
  */
 angular
   .module('angularRestfulApp', [
-    'ngAnimate',
-    'ngCookies',
     'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+    'ngResource'
   ])
   .config(function ($routeProvider) {
     $routeProvider
